@@ -64,14 +64,14 @@ jQuery(document).ready(function($){
 	//isotope
 	$('.menu_item li').click(function(){
 	  $(".menu_item li").removeClass("active");
-	  $(this).addClass("active");        
-		var selector = $(this).attr('data-filter'); 
-		$(".gallery_item").isotope({ 
-			filter: selector, 
-			animationOptions: { 
-				duration: 750, 
-				easing: 'linear', 
-				queue: false, 
+	  $(this).addClass("active");
+		var selector = $(this).attr('data-filter');
+		$(".gallery_item").isotope({
+			filter: selector,
+			animationOptions: {
+				duration: 750,
+				easing: 'linear',
+				queue: false,
 			}
 		});
 	});
@@ -90,7 +90,7 @@ jQuery(document).ready(function($){
 	});
 });
 jQuery(window).load(function(){
-	//Isotope 
+	//Isotope
 	$(".gallery_item").isotope({
 		itemSelector: '.single_items',
 		layoutMode: 'fitRows',

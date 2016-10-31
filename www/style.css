@@ -759,7 +759,7 @@ html,body{height:100%;}
   width: auto;
   display:block;
 }
-.blog_img a:hover:after{opacity:.1} 
+.blog_img a:hover:after{opacity:.1}
 .blog_img a:hover:after  {
     transform: scale(1);
 }
