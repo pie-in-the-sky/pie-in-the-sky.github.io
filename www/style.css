@@ -190,10 +190,10 @@ body {
 }
 /*jquery-sticky-menu*/
 .is-sticky header {
-  background: #fff none repeat scroll 0 0;
+  background: #000000 none repeat scroll 0 0;
 }
 .is-sticky #nav a{
-  color:#777777;
+  color: #ffffff;
 }
 /*------------------------------------------------------------------
 [2. Slider ]
@@ -429,6 +429,27 @@ html,body{height:100%;}
   color: #fff;
   border: 3px solid #e7b02d;
 }
+
+.fruit {
+  background: #a94442;
+  border: 3px solid #a94442;
+}
+
+.cream {
+  background: #5e482d;
+  border: 3px solid #5e482d;
+}
+
+.special {
+  background: #c27d37;
+  border: 3px solid #c27d37;
+}
+
+.dinner {
+  background: #1C3C30;
+  border: 3px solid #1C3C30;
+}
+
 /*------------------------------------------------------------------
 [5. What-We-Do ]
 --------------------------------------------------------------------*/
@@ -810,7 +831,7 @@ html,body{height:100%;}
 [ 13. Contact ]
 --------------------------------------------------------------------*/
 .contact_title h1 {
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 .contact_icon i {
   color: #e6af2a;
