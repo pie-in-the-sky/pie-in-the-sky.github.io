@@ -334,6 +334,11 @@ html,body{height:100%;}
   line-height: 28px;
   color:#000000;
 }
+.red_text{
+  font-size: 30px;
+  color: #c10e0e;
+}
+
 .about_text:hover .black_text {
   text-decoration: line-through;
 }
@@ -428,6 +433,11 @@ html,body{height:100%;}
   background: #e7b02d none repeat scroll 0 0;
   color: #fff;
   border: 3px solid #e7b02d;
+}
+
+.season {
+  background: #000000;
+  border: 3px solid #a94442;
 }
 
 .fruit {
