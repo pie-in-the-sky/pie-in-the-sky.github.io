@@ -339,6 +339,11 @@ html,body{height:100%;}
   color: #c10e0e;
 }
 
+.green_text{
+  font-size: 30px;
+  color: #2db816;
+}
+
 .about_text:hover .black_text {
   text-decoration: line-through;
 }
